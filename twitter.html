@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Page</title>
+    
+  <style>
+  
+  body{
+    padding: 0;
+    margin: 0;
+    background-image: url(twitter.png);
+    background-color: skyblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }  
+
+
+  #page-container{
+    margin-left: 70px;
+  }
+  
+  #page-container h1{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+  
+  }
+
+ .left_sidebar{
+    position: absolute;
+    left: 220px;
+    top: 350px;
+    
+  }
+
+ .left_part_top{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    text-align: center;
+  }
+
+ .left_part_top p{
+    font-size: 20px;
+  }
+
+ .left_sidebar p{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+ .right_sidebar{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    padding: 20px 20px;
+  }
+
+ .right_sidebar form label{
+    position: absolute;
+    top: 70px;
+    left: 320px;
+  }
+
+ .right_sidebar_info{
+    position: absolute;
+    left:100px;
+    top: 170px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+ }
+
+ .right_sidebar_info img{
+    width: 50px;
+    height: 50px;   
+  }
+
+ .btn_signup{
+    width: 250px;
+    padding: 7px;
+    border: 1px solid #1DA1F2;
+    border-radius: 15px;
+    background-color: #1DA1F2;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+ .btn_login{
+    width: 250px;
+    padding: 7px;
+    border: 2px solid #1DA1F2;
+    border-radius: 15px;
+    background-color: inherit;
+    color: #1DA1F2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+ input{
+    padding: 10px;
+    background-color: #f2f2f2;
+    width: 200px;
+    outline: none;
+    border: 1px solid skyblue;
+    border-radius: 7px;
+    margin-left: 14px;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ input[type=text]{
+    width: 250px;
+  }
+ .btnlogin{
+    padding: 8px;
+    background-color: #fff;
+    width: 100px;
+    margin-left: 7px;
+    border: 2px solid #1DA1F2;
+    border-radius: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #1DA1F2;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .img{
+    background: url(halfblu.png)no-repeat;
+    background-size:cover
+  }
+  </style>
+
+</head>
+<body>
+  <div id="page-container" img>
+
+  </div>
+     
+  <div class="left_sidebar">
+    <img>
+    <p>Follow your Interests</p>
+    <p>Hear What people are talking about.</p>
+    <p>Join the Conversation</p>
+
+  </div>
+
+  <div class="right_sidebar">
+    <form>
+  <input type="text" name="email" placeholder="Phone Number, Email Address">
+  <input type="password" name="mainpswd" placeholder="Password"/>
+  <button type="submit" name="btnlgn" class="btnlogin">Log in</button>
+  <label><a href="#">Forgotten your password</a></label>
+    </form>
+            
+      <div class="right_sidebar_info">
+        <img src="./twitter.png" alt="">
+        <p style="font-weight: bold;">See what's happening <br>in the world right now</p>
+        <p style="font-size: 16px;">Join Twitter today</p>
+
+        <button type="submit" name="btns" style=" margin-left: 100px;" class="btn_signup">Sign up</button>
+        <br>
+        <button type="submit" style="margin-top: 20px; margin-left: 100px;" name="btns" class="btn_login">Log in</button>
+      </div>
+            
+
+      </div>
+
+    </div>
+</body>
+</html>
